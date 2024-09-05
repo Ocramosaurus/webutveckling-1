@@ -1,0 +1,46 @@
+.Pixar-text{
+    font-size: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.AS{
+
+    margin-left: 750px;
+    margin-top: 0px;
+}
+.WTP{
+
+    font-size: 75px;
+    text-align: center;
+    color: brown;
+    margin-bottom: 50px;
+
+}
+.center{
+
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.imgcenter{
+
+    margin-top: 30px;
+    margin-left: 275px;
+
+}
+.brown{
+    color: brown;
+}
+
+a:link {
+    color: brown;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: brown;
+  }
