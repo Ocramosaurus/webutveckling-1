@@ -1,5 +1,16 @@
 body{
-    background-color: rgb(255, 160, 43);
+    
+    margin: 1%;
+    margin-top: 1%;
+    background-color: darkorange;
+}
+
+head {
+    background-color: darkorchid;
+}
+main {
+    background-color: darkorchid;
+    border-radius: 20px;
 }
 
 
@@ -9,26 +20,30 @@ body{
     text-align: center;
     margin-top: 70px;
     font-family: cursive;
-    color: darkorchid;
+    color: darkorange;
 }
 
 hr {
     border: none;
     height: 3px;
     color: black;
-    background-color: darkorchid;
+    background-color: darkorange;
 }
 
 h2{
-    color: darkorchid;
+    color: darkorange;
     margin-top: 35px;
     margin-left: 30px;
     font-size: 35px;
-    font-family: cursive;
+    font-family: cursive;   
 }
 
 p{
-    color: darkorchid;
+    color: darkorange;
     font-family: cursive;
     margin-left: 20px;
+}
+
+body{
+    color: darkorange;
 }
