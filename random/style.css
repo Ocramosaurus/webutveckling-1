@@ -1,0 +1,24 @@
+.orange-color {
+    color: orange;
+}
+
+.big {
+    font-size: 40px;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    border-style: dashed;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }

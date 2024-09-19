@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(255, 160, 43);
+}
+
+
+
+.titel {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: cursive;
+    color: darkorchid;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    color: black;
+    background-color: darkorchid;
+}
+
+h2{
+    color: darkorchid;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+p{
+    color: darkorchid;
+    font-family: cursive;
+    margin-left: 20px;
+}
