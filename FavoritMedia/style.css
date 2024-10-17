@@ -1,0 +1,45 @@
+body {
+    background-image: url(bg.jpg);
+    background-position-y: 45%;
+}
+
+
+button{
+    border-radius: 30px;
+    font-size: 130%;
+    margin-top: 15px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    margin-top: 25px;
+}
+
+p{
+    font-size: 130%;
+    font-family: sans-serif;
+    margin-top: -10px;
+}
+
+iframe{
+    margin-top: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 80px;
+    row-gap: 15px;
+}
+
+.grid a button {
+    width: 100%;
+}
+
+.grid img{
+    margin-top: 20px;
+    width: 100%;
+}
