@@ -1,6 +1,9 @@
 body {
     background-image: url(bg.jpg);
     background-position-y: 45%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 
@@ -8,6 +11,8 @@ button{
     border-radius: 30px;
     font-size: 130%;
     margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 hr{
