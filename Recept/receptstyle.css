@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231231/pngtree-retro-geometric-lines-vintage-vector-pattern-of-diagonal-abstract-weave-basket-image_13894411.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+
+header {
+    color: white;
+}
+
+article {
+    width: 100%;
+    min-height: 50vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 2%;
+
+    display: grid;
+
+    grid-template-columns: 30% 70%;
+    box-shadow: 2px 2px 4px #000000;
+
+}
