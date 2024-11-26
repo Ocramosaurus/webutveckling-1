@@ -1,3 +1,75 @@
-body{
-    background-image: url(Yellow.png);
+
+
+body {
+    background-image: url(https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg)
+}
+
+header{
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 238, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-side {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.left-side h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.left-side p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.right-side {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.right-side h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.scrollbox{
+    max-height: 400px;  
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.scrollbox button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scrollbox button:hover {
+    background-color: #2980b9;
 }
