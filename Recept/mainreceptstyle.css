@@ -2,11 +2,16 @@ body{
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231231/pngtree-retro-geometric-lines-vintage-vector-pattern-of-diagonal-abstract-weave-basket-image_13894411.png);
     background-size: cover;
     background-repeat: repeat-y;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     color: white;
+    header {
+        color: rgba(255, 255, 255, 0.9);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+    
 }
 
 header h1 {
@@ -41,6 +46,11 @@ article {
 
 }
 
+article div {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
 article img {
     height: 40vh;
 
@@ -61,17 +71,21 @@ h3{
     margin-top: 4%;
 }
 
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+
 button {
-    margin-top: 24%;
-    margin-left: 80%;
     --bg: #ebaa1e;
     --text-color: #fff;
-    position: relative;
-    width: 150px;
     border: none;
     background: var(--bg);
     color: var(--text-color);
-    padding: 1em;
+    padding: 2%;
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.2s;
@@ -79,6 +93,13 @@ button {
     opacity: 0.8;
     letter-spacing: 1px;
     box-shadow: #e88924 0px 7px 2px, #000 0px 8px 5px;
+
+    margin-bottom: 15%;
+    margin-right: 32px;
+    
+    width: 90%;
+    max-width: 300px;
+    height: 40px;
   }
   
   button:hover {
@@ -90,3 +111,6 @@ button {
     box-shadow: #a55005 0px 3px 2px,#000 0px 3px 5px;
 }
 
+body, html {
+    overflow-x: hidden;
+}
