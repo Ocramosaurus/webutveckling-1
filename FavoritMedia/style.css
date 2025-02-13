@@ -48,3 +48,15 @@ iframe{
     margin-top: 20px;
     width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+   .grid {
+        grid-template-columns: auto auto;
+        column-gap: 2%;
+   }
+
+   iframe {
+    width: 85%;
+    height: 85%;
+   }
+}

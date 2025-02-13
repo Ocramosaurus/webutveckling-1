@@ -21,17 +21,32 @@ main {
 aside {
     background-color: rgb(57, 57, 57);
     width: 25%;
-    max-height: 100vh;
-    height: 100vh;
+    
 }
 
 aside h2{
 color: white;
 }
 
+aside button{
+    width: 90%;
+    height: 4%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid #86efff;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+aside h2{
+    margin-left: 5%;
+}
+
 article {
     width: 75%;
     height: fit-content;
+    margin-left: 3%;
+    margin-right: 3%;
 
 }
 
