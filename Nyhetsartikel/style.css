@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    text-align: center;
+    padding: 1%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+aside{
+    background-color: blanchedalmond;
+    height: 100%;
+
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.main-content{
+margin-left: 3%;
+margin-right: 3%;
+}
+
+img{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
