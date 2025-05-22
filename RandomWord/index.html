@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>5-Letter Word Generator</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2em;
+    }
+
+    #words {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      margin-bottom: 1em;
+      font-size: 2em;
+      flex-wrap: wrap;
+    }
+
+    .word {
+      padding: 0.3em 0.6em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #f5f5f5;
+    }
+
+    .match {
+      background-color: #90ee90;
+      font-weight: bold;
+      color: #1e4d1e;
+    }
+
+    #result, #timer {
+      font-size: 1.2em;
+      margin: 0.5em 0;
+    }
+
+    #foundWords {
+      margin-top: 1em;
+      text-align: left;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #foundWords h2 {
+      margin-bottom: 0.5em;
+    }
+
+    #foundList {
+      list-style: none;
+      padding: 0;
+    }
+
+    #foundList li {
+      background-color: #e0ffe0;
+      margin-bottom: 0.2em;
+      padding: 0.3em 0.5em;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>Random 5-Letter Word Generator</h1>
+  <div id="timer">⏱️ Time: 00:00:00</div>
+  <div id="words"></div>
+  <div id="result">Loading dictionary...</div>
+
+  <div id="foundWords">
+    <h2>Valid Words Found:</h2>
+    <ul id="foundList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
